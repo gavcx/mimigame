@@ -1,0 +1,33 @@
+[gd_scene load_steps=2 format=3 uid="uid://dav7hgkeldoqt"]
+
+[ext_resource type="Script" uid="uid://dtmw4vo2creil" path="res://main.gd" id="1_o5qli"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_o5qli")
+
+[node name="title" type="Label" parent="."]
+offset_left = 290.0
+offset_top = 51.0
+offset_right = 821.0
+offset_bottom = 179.0
+theme_override_font_sizes/font_size = 60
+text = "mimi rpg"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="play" type="Button" parent="."]
+offset_left = 473.0
+offset_top = 318.0
+offset_right = 640.0
+offset_bottom = 379.0
+text = "play"
+
+[node name="quit" type="Button" parent="."]
+offset_left = 471.0
+offset_top = 549.0
+offset_right = 643.0
+offset_bottom = 590.0
+text = "quit"
+
+[connection signal="pressed" from="play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="quit" to="." method="_on_quit_pressed"]
