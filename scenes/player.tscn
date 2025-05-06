@@ -1,4 +1,4 @@
-[gd_scene load_steps=79 format=3 uid="uid://bfjbtvvyq87va"]
+[gd_scene load_steps=74 format=3 uid="uid://bfjbtvvyq87va"]
 
 [ext_resource type="Script" uid="uid://dkbdsm7kc8r6s" path="res://scripts/character_body_2d.gd" id="1_tuyoq"]
 [ext_resource type="Texture2D" uid="uid://dnro1twolfs3l" path="res://assets/mimi crouch.png" id="2_fjrip"]
@@ -30,26 +30,6 @@ region = Rect2(384, 0, 128, 128)
 [sub_resource type="AtlasTexture" id="AtlasTexture_olr1q"]
 atlas = ExtResource("3_smehm")
 region = Rect2(512, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_q42o5"]
-atlas = ExtResource("3_smehm")
-region = Rect2(640, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_b7btk"]
-atlas = ExtResource("3_smehm")
-region = Rect2(384, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_kkgr2"]
-atlas = ExtResource("3_smehm")
-region = Rect2(256, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_iett8"]
-atlas = ExtResource("3_smehm")
-region = Rect2(128, 0, 128, 128)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_r5m4j"]
-atlas = ExtResource("3_smehm")
-region = Rect2(0, 0, 128, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_036b0"]
 atlas = ExtResource("4_ur7pv")
@@ -313,23 +293,8 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_olr1q")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_q42o5")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_b7btk")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_kkgr2")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_iett8")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_r5m4j")
 }],
-"loop": false,
+"loop": true,
 "name": &"fall",
 "speed": 10.0
 }, {
@@ -455,7 +420,7 @@ animations = [{
 }],
 "loop": false,
 "name": &"jump",
-"speed": 10.0
+"speed": 12.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -543,7 +508,7 @@ script = ExtResource("1_tuyoq")
 texture_filter = 1
 position = Vector2(7, 13)
 sprite_frames = SubResource("SpriteFrames_3v2ag")
-animation = &"crouch_down"
+animation = &"jump"
 
 [node name="StandingCollision" type="CollisionShape2D" parent="."]
 position = Vector2(0, 2)
