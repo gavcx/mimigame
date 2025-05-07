@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bp80cjsux24qs"
-path="res://.godot/imported/mimi crouch.png-6de69d9395911e534f657325e787b7be.ctex"
+uid="uid://csb10811pumsp"
+path="res://.godot/imported/mimi crouch idle.png-532b1fa485616cf2f1a2ef45f9fa1d3a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/mimi crouch.png"
-dest_files=["res://.godot/imported/mimi crouch.png-6de69d9395911e534f657325e787b7be.ctex"]
+source_file="res://assets/mimi crouch idle.png"
+dest_files=["res://.godot/imported/mimi crouch idle.png-532b1fa485616cf2f1a2ef45f9fa1d3a.ctex"]
 
 [params]
 

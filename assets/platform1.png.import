@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dxxwog8m4jh7k"
-path="res://.godot/imported/mimi fall.png-5b9f76df95dc25bbe83d2322c67436bb.ctex"
+uid="uid://dxqtn2ouxn4xh"
+path="res://.godot/imported/platform1.png-98a13073da08c3235e3e4b66bba127d7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/mimi fall.png"
-dest_files=["res://.godot/imported/mimi fall.png-5b9f76df95dc25bbe83d2322c67436bb.ctex"]
+source_file="res://assets/platform1.png"
+dest_files=["res://.godot/imported/platform1.png-98a13073da08c3235e3e4b66bba127d7.ctex"]
 
 [params]
 
